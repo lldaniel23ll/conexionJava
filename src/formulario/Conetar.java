@@ -10,7 +10,7 @@ public class Conetar {
     private static final String driver="com.mysql.jdbc.Driver";
     private static final String user="root";
     private static final String password="";
-    private static final String url="jdbc:mysql//localhost:3306/tienda";
+    private static final String url="jdbc:mysql//localhost:3306/pruebas";
 
     public Conetar() {
         try{
@@ -32,7 +32,7 @@ public class Conetar {
         conn=null;
         if (conn==null) {
             System.out.println("Conexion no establecida");
-            //JOptionPane.showMessageDialog(null, "Conexion desconectada");
+            JOptionPane.showMessageDialog(null, "Conexion desconectada");
         }
     }
     
